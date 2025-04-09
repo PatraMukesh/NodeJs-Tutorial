@@ -1,17 +1,17 @@
 function add(a,b){
-    return a+b;
+    return "The sum of a and b is: " + (a+b);
 }
 
 function sub(a,b){
-    return a-b;
+    return "The difference of a and b is: " + (a-b);
 }
 
 function mul(a,b){
-    return a*b;
+    return "The product of a and b is: " + (a*b);
 }
 
 function div(a,b){
-    return a/b;
+   return "The quotient of a and b is: " + (a/b);
 }
 
 module.exports = {
@@ -20,3 +20,8 @@ module.exports = {
     multiplication: mul,
     division: div
 };
+
+// exports.addition = add;
+// exports.subtraction = sub;
+// exports.multiplication = mul;
+// exports.division = div;
