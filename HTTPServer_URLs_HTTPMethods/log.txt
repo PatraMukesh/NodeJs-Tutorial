@@ -18,3 +18,5 @@
 1744701848537: GET /signup New Request Received
 1744701856500: GET /signup New Request Received
 1744701870923: GET /signup New Request Received
+1744710421681: GET / New Request Received
+1744710760063: GET / New Request Received

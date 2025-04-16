@@ -1,0 +1,85 @@
+🌐 What is a REST API?
+
+REST API stands for:
+
+    Representational State Transfer - Application Programming Interface
+
+In simple words:
+
+👉 It’s a way for two systems to talk to each other over the internet using standard HTTP methods (like GET, POST, PUT, DELETE).
+📦 Example in Real Life:
+
+Imagine you have a mobile app that needs to get a list of users from a database on a server.
+
+    The app sends a GET request to a URL like https://myapi.com/users
+
+    The server responds with some data in JSON format
+
+That’s a REST API at work!
+🧱 REST API Basics:
+
+A REST API:
+
+    Works over HTTP
+
+    Uses standard HTTP methods:
+
+        GET → Read data
+
+        POST → Create new data
+
+        PUT/PATCH → Update data
+
+        DELETE → Delete data
+
+    Returns data in a standard format like JSON
+
+    Each "thing" (like a user or product) is a resource
+
+        e.g., /users, /products/123
+
+
+
+
+✅ CSR vs SSR
+
+These terms refer to how web pages are rendered and served to the client.
+🔹 CSR - Client-Side Rendering
+
+    The browser (client) loads a basic HTML file.
+
+    Then it downloads JavaScript, and that JS renders the full page.
+
+    Frameworks: React, Vue, Angular (by default).
+
+    Pros:
+
+        Fast interactions after load.
+
+        Better for apps with heavy interactivity.
+
+    Cons:
+
+        Slower initial load.
+
+        SEO can be tricky (since search engines see a blank page at first).
+
+🔹 SSR - Server-Side Rendering
+
+    The server generates the full HTML page and sends it to the browser.
+
+    The browser just displays it.
+
+    Frameworks: Next.js (React-based), Nuxt.js (Vue-based).
+
+    Pros:
+
+        Faster initial load.
+
+        Better SEO (search engines can see the full content).
+
+    Cons:
+
+        Slightly more complex setup.
+
+        More load on the server.
